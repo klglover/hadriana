@@ -4,12 +4,37 @@
 <html>
 {% include head.html %}
 <body>
-<div class="container bg">
-<div class="row head-row">
-     <header class="header twelve columns"><h1 class="headline">Hadriana In All My Dreams</h1></a>
-     </header>
- </div>
-{% include nav-home.html %}
+  <!--- Header -->
+  <nav class="navigation-bar">
+      <h5 class= "site-identity">In All My Dreams</h5>
+
+      <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+        </div>
+        <!-- Use any element to open the sidenav -->
+        <span onclick="openNav()" id="opennav">Index</span>
+      </nav>  
+<script>/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
+    </script>
+<!--- Navigation -->
+
+  
+  
+ 
  
   {{ content }}
 
