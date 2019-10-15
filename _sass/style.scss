@@ -171,22 +171,21 @@ pre {
     position: absolute;
     bottom: 0;
     margin: 0;
-    left: 0;
+    right: 0;
     color: #eee;
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: maroon;
     padding: 2px 10px;
     font-weight: 600;
 }
 
 .news-exp {
-    display: none;
-    position: absolute;
-    top: 0;
+    position: relative;
+    bottom: 0;
     right: 0;
     margin: 0;
     line-height: 1.6;
     color: #eee;
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: maroon;
     padding: 2px 10px;
 }
 
@@ -199,7 +198,8 @@ pre {
 /* Adjust columns */
 @media (min-width: 550px) {
 .eight.columns.news-piece{
-    width: 66.66666%;
+    width: 100%;
+    height:500px;
     
 }
 

@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "Installation"
+title: In All My Dreams Exhibition
 categories: jekyll update
-img: lost-1.jpg
+img: IAMD-002.jpg
 categories: one
 ---
 
-Find the repository here: [Bheema](https://github.com/sharu725/bheema)
-
-A [detailed guide](https://github.com/sharu725/bheema#installation) is in the README file.
+Opening May 19 2020. Please come see this exhibit!
