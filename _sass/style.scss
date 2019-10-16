@@ -69,25 +69,28 @@ pre {
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: white; /* Black*/
+    background-color: teal; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
   }
   
+#label-1 {
+   left: 0;
+}
   /* The navigation menu links */
   .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
-    color: teal;
+    font-size: 15px;
+    color: #F3EFE1;
     display: block;
     transition: 0.3s;
   }
   
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: grey;
   }
   
   /* Position and style the close button (top right corner) */
@@ -95,13 +98,16 @@ pre {
     position: absolute;
     right: 25px;
     top: 20px;
-    font-size: 36px;
+    font-size: 20px;
     margin-left: 50px;
   }
 
   #opennav {
       color:teal;
       padding:30px;
+      position: relative;
+      top:10px;
+        font-size: 25px;
   }
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -118,19 +124,19 @@ pre {
 
     .navigation-bar {
         width: 100%;  /* i'm assuming full width */
-        height: 80px; /* change it to desired width */
-        background-color: white; /* change to desired color */
+        height: 60px; /* change it to desired width */
+        background-color: #F3EFE1; /* change to desired color */
 
     }
     .site-identity {
         display: inline-block;
-        vertical-align: top;
-        width: 100px;
+        width: 200px;
         height: 50px;
         float: right;
-        margin-top: 10px;
-
-        margin-right: 40px;    /* if you want it vertically middle of the navbar. */
+        top: 20px;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        margin-right: 30px;    /* if you want it vertically middle of the navbar. */
     }
 
     .site-identity {
@@ -153,41 +159,48 @@ pre {
     background-size: cover;
     background-position: center;
     position: relative;
-    &:hover{
+   /* &:hover{
         -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-        filter: grayscale(100%);
-    }
+       /* filter: grayscale(100%); */
+     
 }
 .news-piece-1 {
     height: 350px;
+    background-color:#F3EFE1;
     
 }
 .news-piece-2 {
-   height: 265px;
+   height: 465px;
 }
 
 
 .news-title {
     position: absolute;
-    bottom: 0;
+    display: block;
+    right:0;
+    bottom:0;
     margin: 0;
-    right: 0;
-    color: #eee;
+    color: #F3EFE1;
     background-color: maroon;
     padding: 2px 10px;
-    font-weight: 600;
+    font-weight: 200;
+    width: 30%;
 }
 
 .news-exp {
-    position: relative;
+   position: absolute;
+   display: block;
     bottom: 0;
-    right: 0;
+    right:0;
     margin: 0;
     line-height: 1.6;
-    color: #eee;
+    color: #F3EFE1;
     background-color: maroon;
     padding: 2px 10px;
-}
+    width: 30%; 
+    
+   
+}  
 
 .news-piece:hover .news-exp {
     display: block;
@@ -197,21 +210,32 @@ pre {
 
 /* Adjust columns */
 @media (min-width: 550px) {
+.twelve.columns.news-piece{
+    height: 500px;
+}
 .eight.columns.news-piece{
-    width: 100%;
     height:500px;
     
 }
 
+.seven.columns.news-peice{
+    height:100px;
+}
+
+
+.five.column.news-piece {
+    height:100px;
+}
 .four.columns.news-piece {
     margin-left: 0;
-    width: 33.33333%;
+    
 }
 
 }
 .first-row {
     border-bottom: 2px solid transparent;
     border-top: 2px solid transparent;
+    background-color:#F3EFE1;
 }
 .row-border {
     border-bottom: 2px solid transparent;
