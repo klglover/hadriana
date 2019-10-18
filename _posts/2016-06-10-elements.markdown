@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Elements"
+title:  "Natalie Jolivert"
 categories: jekyll update
-img: lost-6.jpg
+img: nathaliejolivertinstudio.jpg
 ---
 Below elements can be used just by adding certain classes to regular html elements. Since the theme is based on [Skeleton](http://getskeleton.com/), you can use any skeleton class in this theme.
 
