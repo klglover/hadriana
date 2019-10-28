@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Hadriana In All My Dreams
 categories: jekyll update
 img: Hadriana-In-All-My-Dreams.png

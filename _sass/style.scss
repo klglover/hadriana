@@ -4,7 +4,7 @@
 }
  */
 body {
-    background-color: #fefefe;
+    background-color: darkslategrey;
 }
 
 /* Main container */
@@ -13,6 +13,7 @@ body {
         padding: 0;
     }
 }
+
 
 /* Post layout container */
 .page-container {
@@ -53,7 +54,7 @@ code {
 
 pre {
     padding: 8px 12px;
-    overflow-x: auto;
+    overflow-x: hidden;
     > code {
         border: 0;
         padding-right: 0;
@@ -65,7 +66,7 @@ pre {
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
-    position: absolute; /* Stay in place */
+    position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
@@ -104,10 +105,11 @@ pre {
 
   #opennav {
       color:teal;
-      padding:30px;
       position: relative;
-      top:10px;
-        font-size: 25px;
+      top:15px;
+      font-size: 20px;
+        float: left;
+        margin-left: 3%;
   }
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
@@ -126,17 +128,18 @@ pre {
         width: 100%;  /* i'm assuming full width */
         height: 60px; /* change it to desired width */
         background-color: #F3EFE1; /* change to desired color */
-
+        position: fixed;
+        z-index:100;
     }
     .site-identity {
         display: inline-block;
-        width: 200px;
+        width: 150px;
         height: 50px;
         float: right;
-        top: 20px;
-        margin-top: 15px;
+        font-size: 20px;
+        margin-top: 20px;
         margin-bottom: 0px;
-        margin-right: 30px;    /* if you want it vertically middle of the navbar. */
+        margin-right: 3%;    /* if you want it vertically middle of the navbar. */
     }
 
     .site-identity {
@@ -173,6 +176,56 @@ pre {
    height: 465px;
 }
 
+.news-piece-3 {
+    height: 200px;
+    margin-top: 15px;
+}
+
+
+.news-title {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    margin-bottom: 0;
+    color: #F3EFE1;
+    background-color: maroon;
+    font-weight: 200;
+    width: 100%;
+}
+
+
+
+/* Adjust columns */
+@media (min-width: 750px) {
+    .hero-image.news-piece {
+        height: 500px;
+        width: 100%;
+    }
+}
+@media (min-width: 750px) {
+.twelve.columns.news-piece{
+    background: teal
+}
+}
+@media (min-width: 550px) {
+
+.eight.columns.news-piece{
+    height:500px;
+    
+}
+
+.seven.columns.news-peice {
+    height:500px;
+}
+
+
+.five.column.news-piece {
+    height:100px;
+}
+.four.columns.news-piece {
+position: absolute;   
+height:465px; 
+}
 
 .news-title {
     position: absolute;
@@ -187,150 +240,13 @@ pre {
     width: 30%;
 }
 
-.news-exp {
-   position: absolute;
-   display: block;
-    bottom: 0;
-    right:0;
-    margin: 0;
-    line-height: 1.6;
-    color: #F3EFE1;
-    background-color: maroon;
-    padding: 2px 10px;
-    width: 30%; 
-    
-   
-}  
-
-.news-piece:hover .news-exp {
-    display: block;
 }
-
-/* News blocks end */
-/*slideshow*/
-.slideshow-container {
-    max-width: 590px;
-    height: 465px;
+.three.columns.new-piece {
+right: 0;
     position: absolute;
-    right: 0;
-    background-color: maroon;
-  }
-
-  .slideshow-container-a{
-width: 33.3333%;   
- height: 465px;
-    position: absolute;
-    left:0;
-    background-color: maroon;
-  }
-  
-  
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color:maroon;
-    font-weight: bold;
-    font-size: 30px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Caption text */
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: maroon;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  
- /* Fading animation */
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 3.5s;
-    animation-name: fade;
-    animation-duration: 3.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .1} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  /* slideshow end*/
-/* Adjust columns */
-@media (min-width: 550px) {
-.twelve.columns.news-piece{
-    height: 500px;
-}
-.eight.columns.news-piece{
-    height:500px;
-    
-}
-
-.seven.columns.news-peice{
-    height:100px;
-}
-
-
-.five.column.news-piece {
-    height:100px;
-}
-.four.columns.news-piece {
-position: relative;   
-height:500px; 
-}
 
 }
+
 .first-row {
     border-bottom: 2px solid transparent;
     border-top: 2px solid transparent;
@@ -415,6 +331,10 @@ height:500px;
        height: 200px; 
     }
 }
+@media (min-width: 400px) { .page-image {
+width:100%; }
+}
+
 
 /* Post and page title */
 .page-title {
@@ -431,9 +351,22 @@ footer {
 }
 /* Add class="video" to video embeds */
 .video {
-    width: 100%;
-    height: 360px;
+    width: 41.6%;
+    height: 465px;
+    float:  right;
+    display: block;
+    background-color: maroon;
     @include media-query($on-palm) {
         height: 250px;
     }
+.vidsub {
+    text-align: center;
+    top: 0;
+    a {color:white;}
+}
+
+iframe {
+    float:center;
+}
+
 }
