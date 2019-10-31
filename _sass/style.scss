@@ -157,6 +157,52 @@ pre {
 
 /* Main header */
 /* News blocks */
+
+.header-container {
+    text-align: center;
+}
+.head-title {
+    display: inline-block;
+    padding: 22% 0;
+    font-size: 30px;
+    width: 250px;
+    color: white;
+}
+.visit-us {
+    position: absolute;
+    display: block;
+    text-align: right;
+    right: 20px;
+    font-size: 15px;
+    bottom: 0;
+    margin-bottom: 3px;
+    color: white;
+    font-weight: 200;
+    width: 100%;
+}
+
+@media (min-width: 550px) {
+.head-title {
+    display: inline-block;
+    padding: 12% 0;
+    font-size: 90px;
+    width: 700px;
+    color: white;
+}
+    
+    .visit-us {
+        position: absolute;
+        display: block;
+        text-align: right;
+        right: 30px;
+        font-size: 25px;
+        bottom: 0;
+        color: white;
+        font-weight: 200;
+        width: 100%;
+    }
+
+}
 .news-piece{
     background-repeat: no-repeat;
     background-size: cover;
@@ -193,6 +239,9 @@ pre {
     width: 100%;
 }
 
+.hero-image.news-piece {
+    background: lightseagreen;
+}
 
 
 /* Adjust columns */
