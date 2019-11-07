@@ -180,6 +180,14 @@ pre {
     font-weight: 200;
     width: 100%;
 }
+#vidplayer {
+    width: 100%;
+    
+    float:  right;
+    display: block;
+    background-color: teal;
+
+}
 
 @media (min-width: 550px) {
 .head-title {
@@ -201,8 +209,16 @@ pre {
         font-weight: 200;
         width: 100%;
     }
-
+#vidplayer {
+        width: 41.6%;
+        height: 350px;
+        float:  right;
+        display: block;
+        background-color: maroon;
+  
 }
+}
+
 .news-piece{
     background-repeat: no-repeat;
     background-size: cover;
@@ -219,7 +235,7 @@ pre {
     
 }
 .news-piece-2 {
-   height: 465px;
+   height: 350px;
 }
 
 .news-piece-3 {
@@ -264,7 +280,7 @@ pre {
 }
 
 .seven.columns.news-peice {
-    height:500px;
+    height:350px;
 }
 
 
