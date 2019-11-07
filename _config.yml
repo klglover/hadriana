@@ -4,8 +4,7 @@ title: Hadriana #Keep it short
 email: your@email.com
 
 
-baseurl: /hadriana
-
+baseurl: fortefairy.github.io/hadriana/
 sass:
  style: compressed
  
