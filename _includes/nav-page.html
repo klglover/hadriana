@@ -1,5 +1,5 @@
 <nav class="navigation-bar">
-    <h5 class= "site-identity">In All My Dreams</h5>
+  <a class="icon" href="/hadriana/"><img class="icon" src="/hadriana/img/Star-Icon-Turquoise.png"></a>
 
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
@@ -26,4 +26,11 @@
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
   }
+  
+  (function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
   </script>

@@ -131,15 +131,14 @@ pre {
         position: fixed;
         z-index:100;
     }
-    .site-identity {
+  
+    .icon {
         display: inline-block;
-        width: 150px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         float: right;
-        font-size: 20px;
-        margin-top: 20px;
-        margin-bottom: 0px;
-        margin-right: 3%;    /* if you want it vertically middle of the navbar. */
+        margin-top: 6px;
+        margin-right: 1%;    /* if you want it vertically middle of the navbar. */
     }
 
     .site-identity {
@@ -163,11 +162,20 @@ pre {
 }
 .head-title {
     display: inline-block;
-    padding: 22% 0;
-    font-size: 30px;
+    padding-top: 40%;
+        font-size: 40px;
     width: 250px;
-    color: white;
+    color: teal;
 }
+
+.subtitle {
+    display: inline-block;
+    font-size: 15px;
+    width: 250px;
+    color: teal;
+
+    }
+
 .visit-us {
     position: absolute;
     display: block;
@@ -176,7 +184,7 @@ pre {
     font-size: 15px;
     bottom: 0;
     margin-bottom: 3px;
-    color: white;
+    color: teal;
     font-weight: 200;
     width: 100%;
 }
@@ -192,12 +200,28 @@ pre {
 @media (min-width: 550px) {
 .head-title {
     display: inline-block;
-    padding: 12% 0;
-    font-size: 90px;
-    width: 700px;
-    color: white;
+    padding-top: 12%;
+    font-size: 125px;
+    width: 1000px;
+    color: teal;
 }
+.names {
+        display: inline-block;
+        font-size: 15px;
+        width: 1000px;
+        color: teal;
+        letter-spacing: 4px;
     
+    
+}
+    .subtitle {
+    display: inline-block;
+    padding-top: 0px;
+    font-size: 50px;
+    width: 1000px;
+    color: teal;
+
+    }
     .visit-us {
         position: absolute;
         display: block;
@@ -205,7 +229,7 @@ pre {
         right: 30px;
         font-size: 25px;
         bottom: 0;
-        color: white;
+        color: teal;
         font-weight: 200;
         width: 100%;
     }
@@ -239,7 +263,7 @@ pre {
 }
 
 .news-piece-3 {
-    height: 200px;
+    height: 400px;
     margin-top: 15px;
 }
 
@@ -256,14 +280,14 @@ pre {
 }
 
 .hero-image.news-piece {
-    background: lightseagreen;
+    background: #F3EFE1;
 }
 
 
 /* Adjust columns */
 @media (min-width: 750px) {
     .hero-image.news-piece {
-        height: 500px;
+        height: 675px;
         width: 100%;
     }
 }
