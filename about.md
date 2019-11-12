@@ -2,6 +2,7 @@
 layout: page
 title:  About "In All My Dreams"
 img: hadrianainallmydreams.jpg
+permalink: /about/
 ---
 
 
