@@ -4,11 +4,7 @@ title: Hadriana #Keep it short
 email: your@email.com
 
 
-baseurl: /hadriana
-<<<<<<< HEAD
-
-=======
->>>>>>> f2920ad704b16c57939399ff5e0da06062190706
+baseurl: /hadriana/
 sass:
  style: compressed
  
@@ -19,3 +15,4 @@ analytics: UA-83979019-1
 ### exclude the instructions / write-up in the README.md
 exclude:
 - README.md
+3
