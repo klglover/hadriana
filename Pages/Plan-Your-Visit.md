@@ -2,6 +2,7 @@
 layout: page
 title: Hadriana In All My Dreams
 img: Hadriana-In-All-My-Dreams.png
+permalink: /plan-your-visit
 ---
 <style>.page-column {
   float: left;

@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  Artists
+permalink: /gallery
 ---
 <h1>Gallery</h1>
 

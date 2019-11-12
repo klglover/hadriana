@@ -1,6 +1,7 @@
 ---
 layout: page
 title:  Artists
+permalink: /artists
 ---
 <h1>About The Artists</h1>
 <div id="columns-2"><img src="/hadriana/img/nathalie.jpg">
