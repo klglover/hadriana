@@ -2,6 +2,6 @@
 layout: page
 title: Who is Rene Depestre?
 categories: jekyll update
-img: Hdespestre2.jpg
+img: despestre2.jpg
 categories: three
 ---

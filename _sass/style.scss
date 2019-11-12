@@ -162,7 +162,7 @@ pre {
 }
 .head-title {
     display: inline-block;
-    padding-top: 40%;
+    padding-top: 20%;
         font-size: 40px;
     width: 250px;
     color: teal;
@@ -175,6 +175,15 @@ pre {
     color: teal;
 
     }
+
+    .names {
+        display: inline-block;
+        font-size: 8px;
+        width: 270px;
+        color: teal;
+    
+    
+}
 
 .visit-us {
     position: absolute;
@@ -196,8 +205,38 @@ pre {
     background-color: black;
 
 }
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-gap: 10px;
+    grid-auto-rows: minmax(180px, auto);
+    grid-auto-flow: dense;
+    padding: 10px;
+}
 
-@media (min-width: 550px) {
+.grid-item {
+    padding: 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #929796;
+    background-color: #333;
+    border-radius: 5px;
+    &:nth-child(odd) {
+        background-color: #424242;
+    }
+}
+
+.span-2 {
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+}
+
+.span-3 {
+    grid-column-end: span 3;
+    grid-row-end: span 4;
+}
+@media (min-width: 750px) {
 .head-title {
     display: inline-block;
     padding-top: 12%;
@@ -283,8 +322,7 @@ pre {
 }
 
 .news-piece-3 {
-    height: 400px;
-    margin-top: 15px;
+    height: 500px;
 }
 
 
@@ -332,7 +370,6 @@ pre {
     height:100px;
 }
 .four.columns.news-piece {
-position: absolute;   
 height:465px; 
 }
 
@@ -365,6 +402,7 @@ right: 0;
 .row-border {
     border-bottom: 2px solid transparent;
 }
+
 
 
 
@@ -460,23 +498,4 @@ footer {
 
 }
 /* Add class="video" to video embeds */
-.video {
-    width: 41.6%;
-    height: 465px;
-    float:  right;
-    display: block;
-    background-color: beige;
-    @include media-query($on-palm) {
-        height: 250px;
-    }
-.vidsub {
-    text-align: center;
-    top: 0;
-    a {color:white;}
-}
 
-iframe {
-    float:center;
-}
-
-}

@@ -1,9 +1,7 @@
 ---
 layout: page
 title:  About "In All My Dreams"
-categories: jekyll update
 img: hadrianainallmydreams.jpg
-categories: two
 ---
 
 
