@@ -5,7 +5,10 @@ email: your@email.com
 
 
 baseurl: /hadriana
+<<<<<<< HEAD
 
+=======
+>>>>>>> f2920ad704b16c57939399ff5e0da06062190706
 sass:
  style: compressed
  
