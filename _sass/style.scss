@@ -227,32 +227,67 @@ pre {
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
-    color: #929796;
-    background-color: #333;
+    color: #F3EFE1;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    border-radius: 5px;
-    &:nth-child(odd) {
-        background-color: #424242;
-    }
+    
+}
+
+
+.grid-item-5, .grid-item-10, .grid-item-11 {
+    grid-column-end: span 3;
+    grid-row-end: span 2;
 }
 
 .span-2 {
-    grid-column-end: span 2;
+    grid-column-end: span 3;
     grid-row-end: span 2;
 }
 
 .span-3 {
     grid-column-end: span 3;
-    grid-row-end: span 3;
+    grid-row-end: span 2;
 }
 
 .span-4 {
-    grid-column-end: span 4;
-    grid-row-end: span 3;
+    grid-column-end: span 3;
+    grid-row-end: span 2;
 }
 
+.span-5 {
+    grid-column-end: span 3;
+    grid-row-end: span 2;
+}
+.span-6 {
+    grid-column-end: span 3;
+    grid-row-end: span 2;
+}
+.span-7 {
+    grid-column-end: span 3;
+    grid-row-end: span 2;   
+} 
+
+.grid-title a{
+    color: white !important;
+   background: rgba(25, 111, 138, 0.65); 
+   padding-right: 15px;
+   float: right;
+    
+    
+}
+
+.grid-heading {
+    color: white !important;
+    width: 100%;
+}
+
+.grid-heading-2 {
+    color: white !important;
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+}
 @media (min-width: 750px) {
 .head-title {
     display: inline-block;
@@ -299,32 +334,119 @@ width:41.2%;
   
 }
 
+.grid-item {
+    padding: 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #F3EFE1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+.grid-item-5, {
+    background-color: teal;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+}
+
+.grid-item-10 {
+    background-color: rgb(185, 89, 82);
+    grid-column-end: span 3;
+    grid-row-end: span 1;
+    text-align: center;
+}
+
+.grid-item-11 {
+    background-color: rgb(29, 167, 144);
+}
+
+.grid-item-1:hover, .grid-item-3:hover, .grid-item-5:hover, .grid-item-10:hover, .grid-item-11:hover{
+    padding: 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: teal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .70;
+    
+}
+
+.grid-item-8:hover, {
+    padding: 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: teal;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: .40;
+}
+.span-2 {
+    grid-column-end: span 2;
+    grid-row-end: span 3;
+}
+
+.span-3 {
+    grid-column-end: span 3;
+    grid-row-end: span 3;
+}
+
+.span-4 {
+    grid-column-end: span 4;
+    grid-row-end: span 3;
+}
+
+.span-5 {
+    grid-column-end: span 3;
+    grid-row-end: span 4;
+}
+.span-6 {
+    grid-column-end: span 1;
+    grid-row-end: span 3;
+}
+.span-7 {
+    grid-column-end: span 1;
+    grid-row-end: span 2;   
+} 
+.span-8 {
+    grid-column-end: span 2;
+    grid-row-end: span 4;
+}
+.span-9 {
+    grid-column-end: span 4;
+    grid-row-end: span 1;
+}
+.span-10 {
+    grid-column-end: span 3;
+    grid-row-end: span 2;
+}
+
+.span-11 {
+    grid-column-end: span 3;
+    grid-row-end: span 3;
+}
+#bookclub {
+    height:75px;
+    width: 100px;
+    padding-right:10px;
+    display:inline-block;
+}
+.grid-item-8 {
+    background-color: white;
+    
+}
+
 #video-1 {
     grid-column-end: span 3;
     height: 350px;
     float:  right;
     display: block;
-    background-color: beige;
-}
-.tile {
-    display: inline-block;
-    position: relative;
-    width: 49.8%;
-}
-.tile-title {
-    position: absolute;
-    display: block;
-    bottom: 0;
-    margin-bottom: 0;
-    color: #F3EFE1;
-    background-color: maroon;
-    font-weight: 200;
-    width: 100%;
-}
-.tile-2 {
-    width:49.89%;
-    display: inline-block;
-    position: relative;
+    background-color:black;
 }
 }
 
@@ -338,6 +460,7 @@ width:41.2%;
        /* filter: grayscale(100%); */
      
 }
+ 
 .news-piece-1 {
     height: 350px;
     background-color:#F3EFE1;
