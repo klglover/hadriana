@@ -104,7 +104,7 @@ pre {
   }
 
   #opennav {
-      color:teal;
+      color:#521e35;
       position: relative;
       top:15px;
       font-size: 20px;
@@ -162,29 +162,40 @@ pre {
 }
 .head-title {
     display: inline-block;
-    padding-top: 20%;
-        font-size: 40px;
+    padding-top: 50%;
+    font-size: 50px;
     width: 250px;
-    color: teal;
+    color: darkslategrey;
+    margin-bottom:2px;
 }
 
 .subtitle {
     display: inline-block;
     font-size: 15px;
     width: 250px;
-    color: teal;
+    color: #521e35;
+    margin-bottom: 2px;
 
     }
 
     .names {
         display: inline-block;
-        font-size: 8px;
-        width: 270px;
-        color: teal;
+        font-size: 9.5px;
+        width: 315px;
+        color: #521e35;
+        margin-bottom: 2px;
     
     
 }
 
+.dates {
+    display: inline-block;
+    font-size: 12px;
+    width: 270px;
+    color: #521e35;
+
+
+}
 .visit-us {
     position: absolute;
     display: block;
@@ -193,7 +204,7 @@ pre {
     font-size: 15px;
     bottom: 0;
     margin-bottom: 3px;
-    color: teal;
+    color: #521e35;
     font-weight: 200;
     width: 100%;
 }
@@ -269,7 +280,7 @@ pre {
 } 
 
 .grid-title a{
-    color: white !important;
+   color: white !important;
    background: rgba(25, 111, 138, 0.65); 
    padding-right: 15px;
    float: right;
@@ -280,6 +291,8 @@ pre {
 .grid-heading {
     color: white !important;
     width: 100%;
+    font-size: 10px ;
+    
 }
 
 .grid-heading-2 {
@@ -289,28 +302,39 @@ pre {
     padding-top: 15px;
 }
 @media (min-width: 750px) {
-.head-title {
+
+    .head-title {
     display: inline-block;
     padding-top: 12%;
     font-size: 125px;
     width: 1000px;
-    color: teal;
+    color: #521e35;
 }
 .names {
         display: inline-block;
         font-size: 15px;
         width: 1000px;
-        color: teal;
+        color: #521e35;
         letter-spacing: 4px;
     
     
+}
+
+.dates{
+    display: inline-block;
+    font-size: 15px;
+    width: 1000px;
+    color: #521e35;
+    letter-spacing: 4px;
+
+
 }
     .subtitle {
     display: inline-block;
     padding-top: 0px;
     font-size: 50px;
     width: 1000px;
-    color: teal;
+    color: #521e35;
 
     }
     .visit-us {
@@ -320,7 +344,7 @@ pre {
         right: 30px;
         font-size: 25px;
         bottom: 0;
-        color: teal;
+        color: #521e35;
         font-weight: 200;
         width: 100%;
     }
@@ -471,7 +495,7 @@ width:41.2%;
 }
 
 .news-piece-3 {
-    height: 500px;
+    height:650px;
 }
 
 
@@ -492,12 +516,12 @@ width:41.2%;
 
 #columns-2 {
     columns: 2;
-    text-align: justify;
+   
 }
 /* Adjust columns */
 @media (min-width: 750px) {
     .hero-image.news-piece {
-        height: 675px;
+        height: 720px;
         width: 100%;
     }
 }
