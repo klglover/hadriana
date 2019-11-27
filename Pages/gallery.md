@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Artists
+title:  Gallery
 permalink: /gallery
 ---
 <br>
