@@ -4,20 +4,10 @@ title: Hadriana In All My Dreams
 img: Hadriana-In-All-My-Dreams.png
 permalink: /plan-your-visit
 ---
-<style>.page-column {
-  float: left;
-  width: 50%;
-}
-</style>
-<div class ="page-row"> <div class="page-column">Come to the exhibit!</div>
-<div class="page-column">
-<table>
-<tbody> 
-<tr><td>In All My Dreams</td></tr>
-<tr><td>February, 21, 2020 - March, 14, 2020</td></tr>
-<tr><td>Location</td></tr>
-<tr><td>Hours</td></tr>
-</tbody>
-</table>
-</div>
+
+<div id="column-c">
+In All My Dreams: a visual installation opens on 19 February, 2020 and closes on 14 March, 2020. The exhibition is in the Louise McCagg Gallery at Barnard College, Columbia University.
+
+Gallery hours are Monday-Friday ?AM-?PM.
+
 </div>

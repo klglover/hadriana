@@ -3,10 +3,10 @@ layout: page
 title:  Artists
 permalink: /gallery
 ---
-<h1>Gallery</h1>
+<br>
 
 <!-- The expanding image container -->
-<div class="container">
+<div class="container-2">
   <!-- Close the image -->
   <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
 
