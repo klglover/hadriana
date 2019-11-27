@@ -165,7 +165,7 @@ pre {
     padding-top: 50%;
     font-size: 50px;
     width: 250px;
-    color: darkslategrey;
+    color: #521e35;
     margin-bottom:2px;
 }
 
@@ -230,7 +230,7 @@ pre {
     grid-gap: 0px;
     grid-auto-rows: minmax(100px, auto);
     grid-auto-flow: dense;
-    padding: 10px;
+    padding: 1px;
 }
 
 .grid-item {
@@ -246,14 +246,21 @@ pre {
 }
 
 
-.grid-item-5, .grid-item-13 {
+.grid-item-5{
     grid-column-end: span 3;
-    grid-row-end: span 2;
+    grid-row-end: span 1;
+    background-color: teal;
+}
+
+.grid-item-13 {
+    grid-column-end: span 3;
+    grid-row-end: span 1;
+background-color:#4b0e0e;
 }
 
 .span-2 {
     grid-column-end: span 3;
-    grid-row-end: span 2;
+    grid-row-end: span 3;
 }
 
 .span-3 {
@@ -263,12 +270,12 @@ pre {
 
 .span-4 {
     grid-column-end: span 3;
-    grid-row-end: span 2;
+    grid-row-end: span 3;
 }
 
 .span-5 {
     grid-column-end: span 3;
-    grid-row-end: span 2;
+    grid-row-end: span 3;
 }
 .span-6 {
     grid-column-end: span 3;
@@ -280,8 +287,17 @@ pre {
 } 
 
 .span-9 {
-    grid-column-end: span 2;
+    grid-column-end: span 3;
     grid-row-end: span 2;
+}
+
+.span-11 {
+    grid-column-end: span 1;
+    grid-row-end: span 2;
+}
+.span-12 {
+    grid-column-end: span 3;
+    grid-row-end: span 3;
 }
 .grid-title a{
    color: white !important;
@@ -324,6 +340,10 @@ pre {
   .grid-item-8 {
     background-color: white;
     
+}
+
+.grid-item-11 {
+    background-color: rgb(29, 167, 144);
 }
 @media (min-width: 750px) {
 
@@ -411,7 +431,7 @@ width:41.2%;
 }
 
 .grid-item-13 {
-    background-color: rgb(54, 0, 0);
+    background-color: #4b0e0e;
 }
 
 .grid-item-1:hover, .grid-item-3:hover, .grid-item-5:hover, .grid-item-10:hover, .grid-item-11:hover, .grid-item-9:hover{
