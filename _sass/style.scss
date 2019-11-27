@@ -246,7 +246,7 @@ pre {
 }
 
 
-.grid-item-5, .grid-item-10, .grid-item-11 {
+.grid-item-5, .grid-item-13 {
     grid-column-end: span 3;
     grid-row-end: span 2;
 }
@@ -279,13 +279,20 @@ pre {
     grid-row-end: span 2;   
 } 
 
+.span-9 {
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+}
 .grid-title a{
    color: white !important;
-   background: rgba(25, 111, 138, 0.65); 
-   padding-right: 15px;
-   float: right;
+   font-size: 30px ;
     
-    
+}
+.grid-title {
+    background: rgba(7, 8, 8, 0.65); 
+    text-transform: none;
+   width: 100%;
+    padding-left: 15px;
 }
 
 .grid-heading {
@@ -300,6 +307,23 @@ pre {
     text-align: center;
     width: 100%;
     padding-top: 15px;
+}
+.grid-heading-3 {
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .grid-item-8 {
+    background-color: white;
+    
 }
 @media (min-width: 750px) {
 
@@ -371,13 +395,13 @@ width:41.2%;
 }
 .grid-item-5, {
     background-color: teal;
-    grid-column-end: span 1;
+    grid-column-end: span 2;
     grid-row-end: span 1;
 }
 
 .grid-item-10 {
-    background-color: rgb(185, 89, 82);
-    grid-column-end: span 3;
+    background-color: teal;
+    grid-column-end: span 2;
     grid-row-end: span 1;
     text-align: center;
 }
@@ -386,7 +410,11 @@ width:41.2%;
     background-color: rgb(29, 167, 144);
 }
 
-.grid-item-1:hover, .grid-item-3:hover, .grid-item-5:hover, .grid-item-10:hover, .grid-item-11:hover{
+.grid-item-13 {
+    background-color: rgb(54, 0, 0);
+}
+
+.grid-item-1:hover, .grid-item-3:hover, .grid-item-5:hover, .grid-item-10:hover, .grid-item-11:hover, .grid-item-9:hover{
     padding: 0;
     font-size: 14px;
     font-weight: bold;
@@ -422,38 +450,50 @@ width:41.2%;
 
 .span-4 {
     grid-column-end: span 4;
-    grid-row-end: span 3;
+    grid-row-end: span 6;
 }
 
 .span-5 {
     grid-column-end: span 3;
-    grid-row-end: span 4;
+    grid-row-end: span 7;
 }
 .span-6 {
-    grid-column-end: span 1;
+    grid-column-end: span 2;
     grid-row-end: span 3;
 }
 .span-7 {
-    grid-column-end: span 1;
-    grid-row-end: span 2;   
+    grid-column-end: span 2;
+    grid-row-end: span 4;   
 } 
 .span-8 {
     grid-column-end: span 2;
     grid-row-end: span 4;
 }
 .span-9 {
-    grid-column-end: span 4;
-    grid-row-end: span 1;
+    grid-column-end: span 2;
+    grid-row-end: span 3;
 }
+
 .span-10 {
-    grid-column-end: span 3;
-    grid-row-end: span 2;
+    grid-column-end: span 2;
+    grid-row-end: span 4;
 }
 
 .span-11 {
+    grid-column-end: span 1;
+    grid-row-end: span 3;
+}
+
+.span-12 {
     grid-column-end: span 3;
     grid-row-end: span 3;
 }
+
+.span-13 {
+    grid-column-end: span 4;
+    grid-row-end: span 1;
+}
+
 #bookclub {
     height:75px;
     width: 100px;
