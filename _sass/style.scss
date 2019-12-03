@@ -335,7 +335,7 @@ background-color:#4b0e0e;
     color: white !important;
     text-align: center;
     width: 100%;
-    padding-top: 15px;
+    padding-top: 10rem;
 }
 .grid-heading-3 {
     color: black;
@@ -514,8 +514,8 @@ column-count: 1;
 }
 
 .span-4 {
-    grid-column-end: span 4;
-    grid-row-end: span 8;
+    grid-column-end: span 1;
+    grid-row-end: span 2;
 }
 
 .span-5 {
