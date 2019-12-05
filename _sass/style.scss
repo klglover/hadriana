@@ -231,9 +231,9 @@ pre {
 
 .grid-layout {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
     grid-gap: 0px;
-    grid-auto-rows: minmax(120px, auto);
+    grid-auto-rows: minmax(250px, auto);
     grid-auto-flow: dense;
     align-items: stretch;
     margin-bottom: 20em;
@@ -260,39 +260,40 @@ pre {
     background-color: teal;
 }
 
-.grid-item-13 {
+.grid-item-3 {
     grid-column-end: span 3;
     grid-row-end: span 1;
 background-color:#4b0e0e;
 }
 
 .span-1 {
-    grid-column-end: span 4;
-    grid-row-end: span 4;
+    grid-column-end: span 3;
+    grid-row-end: span 1;
 }
 
 .span-2 {
-    grid-column-end: span 8;
-    grid-row-end: span 4;
+    grid-column-end: span 3;
+    grid-row-end: span 1;
 }
 
 .span-3 {
-    grid-column-end: span 3;
-    grid-row-end: span 2;
+    grid-column-end: span 2;
+    grid-row-end: span 1;
 }
 
 .span-4 {
     grid-column-end: span 3;
-    grid-row-end: span 3;
+    grid-row-end: span 2;
 }
 
 .span-5 {
-    grid-column-end: span 3;
-    grid-row-end: span 3;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
 }
 .span-6 {
-    grid-column-end: span 3;
-    grid-row-end: span 2;
+    grid-column-end: span 0;
+    grid-row-end: span 0;
+    display: none;
 }
 .span-7 {
     grid-column-end: span 3;
@@ -312,17 +313,6 @@ background-color:#4b0e0e;
     grid-column-end: span 3;
     grid-row-end: span 3;
 }
-.grid-title a{
-   color: white !important;
-   font-size: 30px ;
-    
-}
-.grid-title {
-    background: rgba(7, 8, 8, 0.65); 
-    text-transform: none;
-   width: 100%;
-    padding-left: 15px;
-}
 
 .grid-heading {
     color: white !important;
@@ -335,13 +325,8 @@ background-color:#4b0e0e;
     color: white !important;
     text-align: center;
     width: 100%;
-    padding-top: 15px;
-}
-.grid-heading-3 {
-    color: black;
-    text-align: center;
-    width: 100%;
-    padding-top: 15px;
+    font-size: 25px;
+    padding-top: 9rem;
 }
 .center {
     display: block;
@@ -355,8 +340,39 @@ background-color:#4b0e0e;
     
 }
 
-.grid-item-11 {
+.grid-item-7 {
     background-color: rgb(29, 167, 144);
+}
+.grid-item-10 {
+    background-color: #a27528;
+    grid-column-end: span 2;
+    grid-row-end: span 1;
+    text-align: center;
+}
+
+.grid-item-11 {
+    background-color:#183e29;
+   
+    text-align: center;
+}
+.grid-item-3 {
+    background-color: #4b0e0e;
+}
+
+.grid-item-15 {
+    background-color:#4b0e0e;
+    
+    text-align: center;
+}
+.grid-item-16 {
+    background-color: rgb(29, 167, 144);
+   
+    text-align: center;
+}
+
+.grid-item-20 {
+    background-color: #a27528;
+    text-align: center;
 }
 
 #column-a {
@@ -382,7 +398,7 @@ background-color:#4b0e0e;
 column-count: 1;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 770px) {
 
     .head-title {
     display: inline-block;
@@ -430,7 +446,25 @@ column-count: 1;
         width: 100%;
     }
 
-.grid-item {
+    .grid-layout {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
+        grid-gap: 0px;
+        grid-auto-rows: minmax(480px, auto);
+        grid-auto-flow: dense;
+        align-items: stretch;
+        margin-bottom: 20em;
+        margin-top: 100px;
+    }
+    
+    .grid-heading-2 {
+        color: white !important;
+        text-align: center;
+        width: 100%;
+        font-size: 45px;
+        padding-top: 10rem;
+    }
+    .grid-item {
     padding: 0;
     font-size: 14px;
     font-weight: bold;
@@ -448,21 +482,26 @@ column-count: 1;
 }
 
 .grid-item-10 {
-    background-color: teal;
+    background-color: #a27528;
     grid-column-end: span 2;
     grid-row-end: span 1;
     text-align: center;
 }
-
 .grid-item-11 {
+    background-color:#183e29;
+    grid-column-end: span 2;
+    grid-row-end: span 1;
+    text-align: center;
+}
+.grid-item-7 {
     background-color: rgb(29, 167, 144);
 }
 
-.grid-item-13 {
+.grid-item-3 {
     background-color: #4b0e0e;
 }
 
-.grid-item-1:hover, .grid-item-3:hover, .grid-item-5:hover, .grid-item-10:hover, .grid-item-11:hover, .grid-item-9:hover, .grid-item-13:hover{
+.grid-item-1:hover, .grid-item-3:hover, .grid-item-5:hover, .grid-item-10:hover, .grid-item-7:hover, .grid-item-11:hover{
     padding: 0;
     font-size: 14px;
     font-weight: bold;
@@ -485,10 +524,16 @@ column-count: 1;
     background-size: cover;
     background-position: center;
     opacity: .40;
+
 }
+.span-1 {
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+}
+
 .span-2 {
-    grid-column-end: span 8;
-    grid-row-end: span 4;
+    grid-column-end: span 2;
+    grid-row-end: span 1;
 }
 
 .video-container {
@@ -509,22 +554,23 @@ column-count: 1;
 }
 
 .span-3 {
-    grid-column-end: span 3;
-    grid-row-end: span 3;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
 }
 
 .span-4 {
-    grid-column-end: span 4;
-    grid-row-end: span 6;
+    grid-column-end: span 1;
+    grid-row-end: span 2;
 }
 
 .span-5 {
-    grid-column-end: span 3;
-    grid-row-end: span 7;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
 }
 .span-6 {
-    grid-column-end: span 2;
-    grid-row-end: span 3;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+    display: block;
 }
 .span-7 {
     grid-column-end: span 2;
