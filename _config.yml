@@ -15,3 +15,27 @@ analytics: UA-83979019-1
 ### exclude the instructions / write-up in the README.md
 exclude:
 - README.md
+
+##################
+# GPG on Keybase #
+##################
+
+keybase-username: fortefairy
+keybase-in-social: True
+keybase-in-footer: True
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "facebook"
+    url: "https://facebook.com/"
+  - title: "twitter"
+    url: "https://twitter.com/"
+  - title: "github"
+    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
+  - title: "bitcoin"
+    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+  - title: "rss"
+    url: "/feed.xml"
