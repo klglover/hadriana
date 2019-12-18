@@ -112,8 +112,39 @@ pre {
       top:15px;
       font-size: 20px;
         float: left;
-        margin-left: 3%;
+        margin-left: 1%;
   }
+
+  .share-btn {
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    padding: 0.5em;
+    width: 4em;
+    box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+    outline: none;
+    text-align: center;
+}
+
+.share-btn:hover {
+  color: #eeeeee;
+}
+
+.share-btn:active {
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+  color: #e2e2e2;
+  outline: none;
+}
+
+.share-btn.twitter     { background: #55acee; }
+.share-btn.google-plus { background: #dd4b39; }
+.share-btn.facebook    { background: #3B5998; }
+.share-btn.stumbleupon { background: #EB4823; }
+.share-btn.reddit      { background: #ff5700; }
+.share-btn.linkedin    { background: #4875B4; }
+.share-btn.email       { background: #444444; }
   
   /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
   #main {
@@ -139,9 +170,9 @@ pre {
         display: inline-block;
         width: 40px;
         height: 40px;
-        float: right;
-        margin-top: 6px;
-        margin-right: 1%;    /* if you want it vertically middle of the navbar. */
+        float: left;
+        margin-top: 5px;
+   /* if you want it vertically middle of the navbar. */
     }
 
     .site-identity {
@@ -233,7 +264,7 @@ pre {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
     grid-gap: 0px;
-    grid-auto-rows: minmax(250px, auto);
+    grid-auto-rows: minmax(230px, auto);
     grid-auto-flow: dense;
     align-items: stretch;
     margin-bottom: 20em;
@@ -256,7 +287,7 @@ pre {
 
 .grid-item-5{
 
-    background-color: #499ca0;
+    background-color: #f3efe3;
 }
 
 .grid-item-3 {
@@ -334,6 +365,13 @@ background-color:#499ca0;
     font-size: 25px;
     padding-top: 9rem;
 }
+.grid-heading-3 {
+    color:#295657 !important;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    padding-top: 9rem;
+}
 .center {
     display: block;
     margin-left: auto;
@@ -369,7 +407,8 @@ background-color:#499ca0;
 
 
 .grid-item-2 {
-    background-color: #499ca0;
+    background-color: #a37528;
+    height: 200px;
 }
 
 .grid-item-15 {
@@ -476,6 +515,13 @@ column-count: 1;
         font-size: 35px;
         padding-top: 10rem;
     }
+    .grid-heading-3 {
+        color:#295657 !important;
+        text-align: center;
+        width: 100%;
+        font-size: 35px;
+        padding-top: 9rem;
+    }
     .grid-item {
     padding: 0;
     font-size: 14px;
@@ -487,7 +533,7 @@ column-count: 1;
    
 }
 .grid-item-5 {
-    background-color: #499ca0;
+    background-color: #f3efe3;
    
 }
 .grid-item-9 {
@@ -519,7 +565,8 @@ column-count: 1;
 }
 
 .grid-item-2 {
-    background-color: #499ca0;
+    background-color: #a37528;
+    height: 420px;
 }
 
 .grid-item-2:hover, .grid-item-5:hover, .grid-item-9:hover, .grid-item-7:hover, .grid-item-13:hover, .grid-item-14:hover{
@@ -610,8 +657,8 @@ column-count: 1;
 }
 
 .span-13 {
-    grid-column-end: span 4;
-    grid-row-end: span 1;
+    grid-column-end: span 1;
+    grid-row-end: span 3;
 }
 
 #bookclub {

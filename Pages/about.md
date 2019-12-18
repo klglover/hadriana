@@ -3,7 +3,7 @@ layout: page
 permalink: /about
 ---
 <div id="column-a"><h1>about the exhibit</h1></div>
-<div id="column-b"><p>In All My Dreams is a collective, multivalent project situated at the intersections between literature, history, and visual art in the Caribbean. Contemporary Haitian artists Nathalie Jolivert, Tessa Mars, and Mafalda Mondestin [hyperlinked to their gallery pages] offer up a visual dialogue with famed Haitian author René Depestre’s novel Hadriana In All My Dreams.  </p> </div>
+
 
 <div id="column-b"><p><em>In All My Dreams</em> is a collective, multivalent project situated at the intersections between literature, history, and visual art in the Caribbean. Contemporary <a href="/artists">Haitian artists</a> Nathalie Jolivert, Tessa Mars, and Mafalda Mondestin offer up a visual dialogue with famed Haitian author René Depestre’s novel <em>Hadriana In All My Dreams</em>. 
  <br><br>
