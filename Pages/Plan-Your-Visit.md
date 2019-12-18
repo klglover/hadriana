@@ -1,10 +1,5 @@
 ---
 layout: page
-<<<<<<< HEAD
-
-=======
-title: plan your visit
->>>>>>> 5646e7e36ad9327de87778f62be5874b99263af8
 permalink: /plan-your-visit
 ---
 <div id="column-a"><h1>plan your visit</h1></div>
