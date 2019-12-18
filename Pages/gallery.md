@@ -1,46 +1,10 @@
 ---
 layout: page
-title:  Gallery
-permalink: /gallery
+title:  book club
+permalink: /bookclub
 ---
-<br>
+<div id="column-b"><p>Hosted by literary scholar Kaiama L. Glover and historian Laurent Dubois, the “In All My Dreams” book club is an informal gathering of readers interested in discovering or exploring Haitian culture through the prism of Depestre’s Hadriana in All My Dreams. 
+During each hour-long meeting, participants have come together to travel through the novel in the engaging company of a host of experts in the fields of Haitian literature, history, and anthropology. Brief reading guides indicate the narrative ground covered during each session and offer links to additional resources (for those who enjoy heading down the odd rabbit hole). Participants make use of the comments section on each page to share thoughts or to pose questions during the weeks leading up to or following the ‘live’ meetings. These spaces were designed to serve as sites for ongoing query and conversation.
+  The four sessions of this <a href="https://iamdbookclub.com">book club</a> culminate in an event with Edwidge Danticat at the French Embassy of New York on 19 February, 2020.
+  </p> </div>
 
-<!-- The expanding image container -->
-<div class="container-2">
-  <!-- Close the image -->
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-
-  <!-- Expanded image -->
-  <img id="expandedImg" style="width:100%">
-
-  <!-- Image text -->
-  <div id="imgtext"></div>
-</div>
-<div class="row">
-  <div class="column">
-    <img src="/hadriana/img/iamd002.jpg" alt="Nature" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="/hadriana/img/iamd005.jpg" alt="Snow" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="/hadriana/img/iamd003.jpg" alt="Mountains" onclick="myFunction(this);">
-  </div>
-  <div class="column">
-    <img src="/hadriana/img/tapestry2.jpg" alt="Lights" onclick="myFunction(this);">
-  </div>
-</div>
-<script>
-function myFunction(imgs) {
-  // Get the expanded image
-  var expandImg = document.getElementById("expandedImg");
-  // Get the image text
-  var imgText = document.getElementById("imgtext");
-  // Use the same src in the expanded image as the image being clicked on from the grid
-  expandImg.src = imgs.src;
-  // Use the value of the alt attribute of the clickable image as text inside the expanded image
-  imgText.innerHTML = imgs.alt;
-  // Show the container element (hidden with CSS)
-  expandImg.parentElement.style.display = "block";
-}
-</script>
