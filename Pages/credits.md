@@ -6,11 +6,9 @@ permalink: /credits
 
 
 <div id="column-b">
-<strong>A Special Thanks To </strong> <br><br>
 <ul>
-<li> <em>Barnard College</em> </li>
-<li> The Digital Humanities Center at Barnard </li>
-<li>Taylor Faires, <em>Barnard College</em>, Web Developer</li>
-<li>Alex Gil, <em>Columbia University</em>, Constulting Web Developer</li>
+<li> The Barnard College Digital Humanities Center </li>
+<li>Taylor Faires, <em>Barnard College</em>, web developer</li>
+<li>Alex Gil, Columbia University, constulting web developer</li>
 </ul>
 </div>
