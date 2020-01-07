@@ -312,13 +312,17 @@ background-color:#499ca0;
     grid-row-end: span 2;
 }
 
-.span-11 {
-    grid-column-end: span 1;
+.span-10 {
+    grid-column-end: span 2;
     grid-row-end: span 2;
 }
+.span-11 {
+    grid-column-end: span 1;
+    grid-row-end: span 1;
+}
 .span-12 {
-    grid-column-end: span 3;
-    grid-row-end: span 3;
+    grid-column-end: span 1;
+    grid-row-end: span 1;
 }
 
 .grid-heading {
@@ -378,12 +382,10 @@ background-color:#499ca0;
 
 .grid-item-2 {
     background-color: #a37528;
-    height: 200px;
 }
 
 .grid-item-15 {
     background-color:#499ca0;
-    
     text-align: center;
 }
 .grid-item-16 {
@@ -622,7 +624,7 @@ column-count: 1;
 }
 
 .span-12 {
-    grid-column-end: span 3;
+    grid-column-end: span 2;
     grid-row-end: span 3;
 }
 
