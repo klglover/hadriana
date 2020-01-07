@@ -10,5 +10,5 @@ February 19, 7-9 PM at <a href="https://www.albertine.com/" target="_blank"> Alb
 
 <br><br>
 
-	February 21 12-2 PM: Artists Talk moderated by Dominique Anglade 
+February 21 12-2 PM: Artists Talk moderated by Dominique Anglade 
 </div>
