@@ -2,49 +2,27 @@
 layout: page
 permalink: /maps
 ---
-<br>
-<!-- The expanding image container -->
-<div class="container-2">
-  <!-- Close the image -->
-  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+<div id="column-a"><h1>Jacmel</h1></div>
 
-  <!-- Expanded image -->
-  <img id="expandedImg" style="width:100%">
 
-  <!-- Image text -->
-  <div id="imgtext"></div>
-</div>
-<div class="row">
-  <div class="column">
-    <img src="/hadriana/img/map1.jpeg" alt="Vue de la part et d’autre de Jacmel, 1760" onclick="myFunction(this);">
- <p> <a href="https://gallica.bnf.fr/ark:/12148/btv1b531035760"> "Vue de la part et d’autre de Jacmel," 1760.</a></p>
-
-</div>
-  <div class="column">
-    <img src="/hadriana/img/map2.jpeg" alt="Plan de la baye et du bourg de Jacmel dans l'isle St. Domingue, 1786" onclick="myFunction(this);"> <a href="https://gallica.bnf.fr/ark:/12148/btv1b531035832"> Plan de la baye et du bourg de Jacmel dans l'isle St. Domingue, 1786</a>
-  </div>
-  <div class="column">
-    <img src="/hadriana/img/map3.jpeg" alt="Plan de la ville de Jacmel et environs, 1800" onclick="myFunction(this);"><a href="https://gallica.bnf.fr/ark:/12148/btv1b8492190x">Plan de la ville de Jacmel et environs, 1800</a>
-  </div>
-  <div class="column">
-    <img src="/hadriana/img/map4.jpeg" alt="Plan de la ville de Jacmel et environs, 1804
-" onclick="myFunction(this);"> <a href="https://gallica.bnf.fr/ark:/12148/btv1b53027884c">Plan de la ville de Jacmel et environs, 1804 </a>
-  </div>
-<div class="column">
-    <img src="/hadriana/img/map5.jpeg" alt="Plan de la ville de Jacmel, 1892" onclick="myFunction(this);"> <a href="https://gallica.bnf.fr/ark:/12148/btv1b52503688j">Plan de la ville de Jacmel, 1892</a>
-  </div>
-</div>
-<script>
-function myFunction(imgs) {
-  // Get the expanded image
-  var expandImg = document.getElementById("expandedImg");
-  // Get the image text
-  var imgText = document.getElementById("imgtext");
-  // Use the same src in the expanded image as the image being clicked on from the grid
-  expandImg.src = imgs.src;
-  // Use the value of the alt attribute of the clickable image as text inside the expanded image
-  imgText.innerHTML = imgs.alt;
-  // Show the container element (hidden with CSS)
-  expandImg.parentElement.style.display = "block";
-}
-</script>
+<div id="column-b">
+  <p>René Depestre’s <em>Hadriana in All My Dreams</em> is largely set in the town of Jacmel, Haiti,
+and the novel as a whole is a layered meditation on this remarkable city. Through
+Depestre’s novel, we come to see Jacmel as a crossroads of many histories and
+itineraries, at once a part of Haiti and the Caribbean and a world on the “cosmic
+stage of the universe.”<br><br>
+Situated on the southern coast of Haiti’s southern peninsula, Jacmel looks toward
+Latin America, and it famously welcomed Latin American revolutionaries like Simon
+Bolivar during the early nineteenth century. Similar to the rest of the southern
+peninsula, it has also long been connected to nearby Jamaica, a link depicted in a
+    crucial part of <em>Hadriana</em>.<br><br>
+The city is famous for its carnival, depicted beautifully in Edwidge Danticat’s <em>After
+    the Dance</em>, as well as for its visual artists. These include <a href="https://www.lecentredart.org/portail-de-lart-haitien/les-artistes/duffaut-prefete/"  target="_blank">Prefète Duffaut </a>, who is
+particularly well known for his “imaginary cities,” many of them dreamscapes
+woven out of his vision of his hometown.<br><br>
+Several of the locations depicted in the novel, notably the Siloé family home – the
+<a href="http://www.mhaiti.org/billet/le-manoir-alexandra"  target="_blank">Manoir Alexandra</a>, recently renovated and opened as a hotel – remain central
+landmarks in the city. Today, a series of steps flanking the manoir and leading to
+Jacmel’s main square are decorated with <a href="https://www.flickr.com/photos/georgiap/20228377244" target="_blank"> mosaic quotations </a> from the first scene in
+    Depestre’s <em>Hadriana</em>, in recognition of his status as one of the city’s great artistic
+figures.</p> </div>
