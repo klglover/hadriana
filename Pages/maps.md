@@ -2,7 +2,7 @@
 layout: page
 permalink: /maps
 ---
-<div id="column-a"><h1>about the exhibit</h1></div>
+<div id="column-a"><h1>Jacmel</h1></div>
 
 
 <div id="column-b">
