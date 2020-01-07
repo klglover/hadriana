@@ -2,6 +2,10 @@
 layout: page
 permalink: /maps
 ---
+<div id="column-a"><h1>about the exhibit</h1></div>
+
+
+<div id="column-b">
 </p>René Depestre’s Hadriana in All My Dreams is largely set in the town of Jacmel, Haiti,
 and the novel as a whole is a layered meditation on this remarkable city. Through
 Depestre’s novel, we come to see Jacmel as a crossroads of many histories and
@@ -21,4 +25,4 @@ Manoir Alexandra, recently renovated and opened as a hotel – remain central
 landmarks in the city. Today, a series of steps flanking the manoir and leading to
 Jacmel’s main square are decorated with mosaic quotations from the first scene in
 Depestre’s Hadriana, in recognition of his status as one of the city’s great artistic
-figures.</p>
+figures.</p> </div>
