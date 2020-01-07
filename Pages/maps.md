@@ -6,7 +6,7 @@ permalink: /maps
 
 
 <div id="column-b">
-</p>René Depestre’s Hadriana in All My Dreams is largely set in the town of Jacmel, Haiti,
+<p>René Depestre’s Hadriana in All My Dreams is largely set in the town of Jacmel, Haiti,
 and the novel as a whole is a layered meditation on this remarkable city. Through
 Depestre’s novel, we come to see Jacmel as a crossroads of many histories and
 itineraries, at once a part of Haiti and the Caribbean and a world on the “cosmic
