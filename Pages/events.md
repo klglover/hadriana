@@ -6,9 +6,9 @@ permalink: /events
 
 
 <div id="column-b">Join us <strong>February 19-23</strong> for a series of opening events for the exhibit “In All My Dreams.”  <br><br>
-February 19, 7-9 PM at <a href="https://www.albertine.com/join-four-online-conversations-on-rene-depestres-hadriana-in-all-my-dreams/" target="_blank"> Albertine Books </a>:“Haiti on the Cosmic Stage of the Universe: Edwidge Danticat Talks René Depestre” 
+February 19, 7-9 pm at <a href="https://www.albertine.com/join-four-online-conversations-on-rene-depestres-hadriana-in-all-my-dreams/" target="_blank"> Albertine Books </a>:“Haiti on the Cosmic Stage of the Universe: Edwidge Danticat Talks René Depestre” 
 
 <br><br>
 
-February 21 12-2 PM: Artists Talk moderated by Dominique Anglade 
+February 21 12-2 pm at the Louise McCagg Gallery: Artists Talk moderated by Dominique Anglade 
 </div>
