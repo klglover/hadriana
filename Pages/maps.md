@@ -3,7 +3,7 @@ layout: page
 permalink: /maps
 ---
 
-<h1>Jacmel</h1>
+<h1>Jacmel</h1>3
 
 <div id="column-a"><img src="/hadriana/img/darmes.jpg" alt="map of the Place d'Armes"/></div>
 <div id="column-b">
