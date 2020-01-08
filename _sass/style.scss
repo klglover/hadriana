@@ -140,7 +140,7 @@ pre {
         display: inline-block;
         width: 40px;
         height: 40px;
-        float: left;
+        float: right;
         margin-top: 5px;
    /* if you want it vertically middle of the navbar. */
     }
@@ -171,8 +171,23 @@ pre {
     width: 250px;
     color: #295657;
     margin-bottom:2px;
+    
 }
-
+.head-title {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+  
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+ 
 .subtitle {
     display: inline-block;
     font-size: 15px;
@@ -384,6 +399,9 @@ background-color:#499ca0;
     background-color: #a37528;
 }
 
+.grid-item-20 {
+    background-size: contain;
+}
 .grid-item-15 {
     background-color:#499ca0;
     text-align: center;
@@ -476,7 +494,7 @@ column-count: 1;
         grid-auto-rows: minmax(420px, auto);
         grid-auto-flow: dense;
         align-items: stretch;
-        margin-bottom: 20em;
+        margin-bottom: 10px;
         margin-top: 100px;
     }
     
@@ -539,6 +557,9 @@ column-count: 1;
 .grid-item-2 {
     background-color: #a37528;
     height: 420px;
+}
+.grid-item-20 {
+    background-size: contain;
 }
 
 .grid-item-2:hover, .grid-item-5:hover, .grid-item-9:hover, .grid-item-7:hover, .grid-item-13:hover, .grid-item-14:hover{
@@ -625,7 +646,7 @@ column-count: 1;
 
 .span-12 {
     grid-column-end: span 2;
-    grid-row-end: span 3;
+    grid-row-end: span 2;
 }
 
 .span-13 {

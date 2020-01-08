@@ -2,9 +2,10 @@
 layout: page
 permalink: /maps
 ---
-<div id="column-a"><h1>Jacmel</h1></div>
 
+<h1>Jacmel</h1>
 
+<div id="column-a"><img src="/hadriana/img/darmes.jpg" alt="map of the Place d'Armes"/></div>
 <div id="column-b">
   <p>René Depestre’s <em>Hadriana in All My Dreams</em> is largely set in the town of Jacmel, Haiti,
 and the novel as a whole is a layered meditation on this remarkable city. Through

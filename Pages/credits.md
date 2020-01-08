@@ -5,10 +5,9 @@ permalink: /credits
 <div id="column-a"><h1>credits</h1></div>
 
 
-<div id="column-b">
-<ul>
-<li> The Barnard College Digital Humanities Center </li>
-<li>Taylor Faires, <em>Barnard College</em>, web developer</li>
-<li>Alex Gil, Columbia University, constulting web developer</li>
-</ul>
+<div id="column-b"><p>
+<strong>Digital Humanities Center </strong> at Barnard College <br><br>
+<strong>Taylor Faires</strong>, Barnard College, web developer <br><br>
+<strong>Alex Gil</strong>, Columbia University, consulting web developer
+</p>
 </div>
