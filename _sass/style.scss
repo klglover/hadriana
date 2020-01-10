@@ -332,8 +332,8 @@ background-color:#499ca0;
     grid-row-end: span 1;
 }
 .span-12 {
-    grid-column-end: span 1;
-    grid-row-end: span 1;
+    grid-column-end: span 2;
+    grid-row-end: span 2;
 }
 
 .grid-heading {
@@ -348,15 +348,18 @@ background-color:#499ca0;
     text-align: center;
     width: 100%;
     font-size: 25px;
-    padding-top: 9rem;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
 }
 .grid-heading-3 {
     color:#295657 !important;
     text-align: center;
     width: 100%;
     font-size: 25px;
-    padding-top: 9rem;
-}
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;}
 .center {
     display: block;
     margin-left: auto;
@@ -452,21 +455,7 @@ column-count: 1;
     width: 1000px;
     color: #295657;
 }
-.head-title {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    white-space: nowrap; /* Keeps the content on a single line */
-  
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
- 
+
 .names {
         display: inline-block;
         font-size: 15px;
@@ -522,14 +511,18 @@ column-count: 1;
         text-align: center;
         width: 100%;
         font-size: 35px;
-        padding-top: 10rem;
+        display: flex;
+        justify-content: center; /* align horizontal */
+        align-items: center;
     }
     .grid-heading-3 {
         color:#295657 !important;
         text-align: center;
         width: 100%;
         font-size: 35px;
-        padding-top: 9rem;
+        display: flex;
+        justify-content: center; /* align horizontal */
+        align-items: center;
     }
     .grid-item {
     padding: 0;
@@ -665,7 +658,7 @@ column-count: 1;
 
 .span-12 {
     grid-column-end: span 2;
-    grid-row-end: span 2;
+    grid-row-end: span 4;
 }
 
 .span-13 {
