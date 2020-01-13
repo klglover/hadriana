@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /maps
+permalink: /jacmel
 ---
 
 <h1>Jacmel</h1>
