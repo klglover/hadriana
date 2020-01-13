@@ -10,7 +10,7 @@ permalink: /events
 
 <br><br>
 
-<strong>February 21 12-2 pm</strong> at the Louise McCagg Gallery: Artists Talk moderated by Dominique Jean-Louis. 
+<strong>February 21 7-9 pm</strong> at the Louise McCagg Gallery: Artists Talk moderated by Dominique Jean-Louis. 
 
 Please sign up or check back here for additional events.
 </div></p>
