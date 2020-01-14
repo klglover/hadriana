@@ -4,8 +4,8 @@ title: Hadriana #Keep it short
 email: your@email.com
 
 
-baseurl: /hadriana
-sass:
+baseurl: inallmydreams.net
+sass: /css/main.css
  style: compressed
  
  

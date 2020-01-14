@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /plan-your-visit
+permalink: {{site.baseurl}}/plan-your-visit
 ---
 <div id="column-a"><h1>plan your visit</h1></div>
 <div id="column-c"><p>
@@ -9,6 +9,6 @@ permalink: /plan-your-visit
 Gallery hours are Monday-Friday 9AM-5PM as well as evenings and weekends by appointment.<br> <br>
 For additional information: hadrianabookclub@gmail.com.<br> <br>
 
- <img src="/hadriana/img/campusmap.png" alt="Campus Map"/>
+ <img src="/img/campusmap.png" alt="Campus Map"/>
 </p>
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /credits
+permalink: {{site.baseurl}}/credits
 ---
 <div id="column-a"><h1>credits</h1></div>
 

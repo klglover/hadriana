@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /about
+permalink: {{site.baseurl}}/about
 ---
 <div id="column-a"><h1>about the exhibit</h1></div>
 
