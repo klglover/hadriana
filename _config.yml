@@ -6,7 +6,7 @@ email: your@email.com
 
 baseurl: inallmydreams.net
 sass: /css/main.css
- style: compressed
+style: compressed
  
  
 # Tracker
